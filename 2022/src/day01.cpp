@@ -76,6 +76,7 @@ int Part2()
     }
     
     cout << "The Top 3 Elves carry a combined total of " << nTopThreeCalorieTotal << " Caloories." << endl;
+    inputStream.close();
     return 0;
 }
 
@@ -114,6 +115,6 @@ int Part1()
     }
 
     cout << "Elf " << nElfWithHighestCalorieTotal << " is carrying the most calories with a total of " << nHighestCalorieTotal << endl;
-
+    inputStream.close();
     return 0;
 }
