@@ -12,12 +12,12 @@ int Part2();
 
 int main(int argc, char *argv[])
 {
-    if(!Part1())
+    if(Part1())
     {
         return 1;
     }
 
-    if(!Part2())
+    if(Part2())
     {
         return 2;
     }
@@ -73,7 +73,6 @@ int Part2()
     for(int i{0};i<3;i++)
     {
         nTopThreeCalorieTotal+=nHighestCalorieTotal[i];
-        cout << "Elf[" << nElfWithHighestCalorieTotal[i] << "] = " << nHighestCalorieTotal[i] << " calories" << endl;
     }
     
     cout << "The Top 3 Elves carry a combined total of " << nTopThreeCalorieTotal << " Caloories." << endl;
