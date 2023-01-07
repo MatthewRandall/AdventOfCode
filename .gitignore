@@ -513,3 +513,4 @@ FodyWeavers.xsd
 *.vsix
 
 .documents/
+.gdb_history
