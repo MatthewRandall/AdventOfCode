@@ -6,7 +6,7 @@ OBJ_DIR := ./obj
 BIN_DIR := ./bin
 LIB_DIR := ./lib
 
-CFLAGS := -std=c++17 -g
+CFLAGS := -std=c++17 -g -g3 -O0
 
 day01 := day01.exe
 day02 := day02.exe
