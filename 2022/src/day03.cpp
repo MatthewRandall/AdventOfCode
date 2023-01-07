@@ -93,7 +93,6 @@ int Part2()
     vector<string> vEntries{"","",""};
     vector<char> vMatches;
     int nPrioritySum = 0;
-    int nCount = 1;
     while(!inputStream.eof())
     {
         int nLongestEntryIndex = fetchGroup(inputStream, vEntries);
