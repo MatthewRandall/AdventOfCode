@@ -90,7 +90,6 @@ int Part2()
         return 1;
     }
 
-    char szEntry[96];
     vector<string> vEntries{"","",""};
     vector<char> vMatches;
     int nPrioritySum = 0;
