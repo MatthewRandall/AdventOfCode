@@ -183,7 +183,7 @@ obj/day08.o: $(SRC_DIR)/day08.cpp
 obj/day07.o: $(SRC_DIR)/day07.cpp
 	$(CC) $(CFLAGS) -O -c $(SRC_DIR)/day07.cpp -I $(INCLUDE_DIR) -o $(OBJ_DIR)/day07.o
 
-obj/day06.o: $(SRC_DIR)06/day06.cpp
+obj/day06.o: $(SRC_DIR)/day06.cpp
 	$(CC) $(CFLAGS) -O -c $(SRC_DIR)/day06.cpp -I $(INCLUDE_DIR) -o $(OBJ_DIR)/day06.o
 
 obj/day05.o: $(SRC_DIR)/day05.cpp
