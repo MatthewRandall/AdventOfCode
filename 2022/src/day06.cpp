@@ -117,7 +117,7 @@ int Part2()
         cout << "Result: " << findMarker(s, 14) << endl;
     }
 
-    return 1;
+    return 0;
 }
 
 int Part1()
