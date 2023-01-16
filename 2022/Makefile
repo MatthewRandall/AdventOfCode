@@ -6,7 +6,8 @@ OBJ_DIR := ./obj
 BIN_DIR := ./bin
 LIB_DIR := ./lib
 
-CFLAGS := -std=c++17 -g -g3 -O0
+#CFLAGS := -std=c++17 -g -g3 -Og
+CFLAGS := -std=c++17 -g -O0 -ggdb3 -Og -fno-inline -fno-eliminate-unused-debug-types
 
 day01 := day01.exe
 day02 := day02.exe
